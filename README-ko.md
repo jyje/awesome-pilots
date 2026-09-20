@@ -14,7 +14,7 @@
 
 ## Overview
 
-[jyje](https://github.com/jyje)의 `pilot-` 접두사 프로젝트를 카테고리별로 정리한 목록입니다. 각 레포는 특정 기술이나 아이디어를 검증하기 위한 최소 단위 실험(pilot)입니다.
+[jyje](https://github.com/jyje)의 `pilot-` 접두사 프로젝트와 그 출발점이 되는 템플릿을 카테고리별로 정리한 목록입니다. 각 레포는 특정 기술이나 아이디어를 검증하기 위한 최소 단위 실험(pilot)입니다.
 
 ## 🤖 Agent & Orchestration
 
@@ -30,6 +30,7 @@ LangGraph / LangChain DeepAgents 기반 에이전트 아키텍처와 MCP(Model C
 | [pilot-langgraph-mcp-cli](https://github.com/jyje/pilot-langgraph-mcp-cli) | MCP 도구 연동을 지원하는 LangGraph 기반 챗봇 CLI | LangGraph, OpenAI API, MCP |
 | [pilot-deepagents](https://github.com/jyje/pilot-deepagents) | LangChain DeepAgents 공식 문서를 따라가는 기본 예제 (OpenAI 호환 API) | LangChain DeepAgents |
 | [pilot-fastmcp](https://github.com/jyje/pilot-fastmcp) | FastMCP 파일럿 프로젝트 | FastMCP |
+| [pilot-typesafeai-jev](https://github.com/jyje/pilot-typesafeai-jev) | 텍스트 대신 타입이 있는 판단을 돌려주는 TypeSafe AI의 Jev를 LangGraph와 Deep Agents 안에서 라우터, 가드레일, 검증 도구로 활용. 채팅 모델은 ChatGPT 구독, NVIDIA NIM, LM Studio 중에서 고를 수 있음 | LangGraph, Deep Agents, TypeSafe AI Jev |
 
 ## 📚 RAG & Vector Search
 
@@ -41,6 +42,14 @@ RAG 파이프라인과 벡터 검색/시각화 실험.
 | [pilot-langchain-pgvector](https://github.com/jyje/pilot-langchain-pgvector) | pgVector + LangChain으로 문서 저장 및 유사도 검색을 구현한 예제 | PostgreSQL/pgVector, LangChain, Docker Compose |
 | [pilot-vector-tsne](https://github.com/jyje/pilot-vector-tsne) | Milvus에 저장된 고차원 벡터를 t-SNE로 시각화하는 실험 | t-SNE, Milvus |
 | [pilot-chainlit-rag](https://github.com/jyje/pilot-chainlit-rag) | Chainlit 기반 RAG 파일럿 | Chainlit |
+
+## 🧰 템플릿
+
+새 pilot을 시작하기 위한 출발점입니다.
+
+| Repo | 설명 | 스택 |
+|---|---|---|
+| [template-pilot-ai-python](https://github.com/jyje/template-pilot-ai-python) | Python AI pilot용 GitHub 템플릿. uv 앱, ChatGPT 구독과 NVIDIA NIM 공급자, 에이전트 스킬, 4개 언어 문서, CI, 릴리스 워크플로 포함 | Python 3.13, uv, LangGraph |
 
 ## ☁️ Infra & DevOps
 
