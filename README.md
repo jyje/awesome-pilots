@@ -14,7 +14,7 @@
 
 ## Overview
 
-A categorized index of [jyje](https://github.com/jyje)'s `pilot-` prefixed repositories. Each repo is a small, focused experiment validating one specific technology or idea.
+A categorized index of [jyje](https://github.com/jyje)'s `pilot-` prefixed repositories, plus the template they start from. Each repo is a small, focused experiment validating one specific technology or idea.
 
 ## 🤖 Agent & Orchestration
 
@@ -30,6 +30,7 @@ Agent architectures built on LangGraph / LangChain DeepAgents, and MCP (Model Co
 | [pilot-langgraph-mcp-cli](https://github.com/jyje/pilot-langgraph-mcp-cli) | A LangGraph-based chatbot CLI with MCP (Model Context Protocol) tool support | LangGraph, OpenAI API, MCP |
 | [pilot-deepagents](https://github.com/jyje/pilot-deepagents) | A basic example following the official LangChain DeepAgents docs (OpenAI-compatible API) | LangChain DeepAgents |
 | [pilot-fastmcp](https://github.com/jyje/pilot-fastmcp) | A pilot project for FastMCP | FastMCP |
+| [pilot-typesafeai-jev](https://github.com/jyje/pilot-typesafeai-jev) | Puts TypeSafe AI's Jev, a model that returns typed judgments instead of text, inside LangGraph and Deep Agents as a router, a guardrail, and a verify tool. The chat model runs on a ChatGPT subscription, NVIDIA NIM, or LM Studio | LangGraph, Deep Agents, TypeSafe AI Jev |
 
 ## 📚 RAG & Vector Search
 
@@ -41,6 +42,14 @@ RAG pipelines and vector search / visualization experiments.
 | [pilot-langchain-pgvector](https://github.com/jyje/pilot-langchain-pgvector) | An example of storing documents and running similarity search with pgVector + LangChain | PostgreSQL/pgVector, LangChain, Docker Compose |
 | [pilot-vector-tsne](https://github.com/jyje/pilot-vector-tsne) | Visualizes high-dimensional vectors stored in Milvus using t-SNE | t-SNE, Milvus |
 | [pilot-chainlit-rag](https://github.com/jyje/pilot-chainlit-rag) | A Chainlit-based RAG pilot | Chainlit |
+
+## 🧰 Templates
+
+Starting points for new pilots.
+
+| Repo | Description | Stack |
+|---|---|---|
+| [template-pilot-ai-python](https://github.com/jyje/template-pilot-ai-python) | A GitHub template for AI pilots in Python: uv app, ChatGPT subscription and NVIDIA NIM providers, agent skills, docs in four languages, CI, and a release workflow | Python 3.13, uv, LangGraph |
 
 ## ☁️ Infra & DevOps
 
